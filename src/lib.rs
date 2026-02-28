@@ -21,8 +21,8 @@ impl zed::Extension for AgdaExtension {
             });
         }
 
-        Err("Could not find 'als' (Agda Language Server) in your PATH.
-            Please ensure you have installed it via cabal and added it to your PATH.".to_string())
+        Err(format!("Could not find 'als' (Agda Language Server) in your PATH.
+            Please ensure you have installed it via cabal and added it to your PATH."))
     }
 }
 

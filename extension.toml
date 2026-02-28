@@ -1,10 +1,10 @@
-id = "agda"
-name = "Agda"
+id = "agda-lsp"
+name = "Agda-LSP"
 version = "0.0.1"
 schema_version = 1
 authors = ["Imbriani Paolo <paoloimbrmagi@gmail.com>"]
 description = "Agda language support for Zed, powered by the Agda Language Server (ALS)"
-repository = "https://github.com/MagiHotline/zed-agda"
+repository = "https://github.com/MagiHotline/agda-lsp"
 
 [grammars.agda]
 repository = "https://github.com/tree-sitter/tree-sitter-agda"
