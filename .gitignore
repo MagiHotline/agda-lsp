@@ -4,3 +4,4 @@ als-Agda-*
 *.wasm
 tree-sitter-agda/
 *.agdai
+/test
